@@ -1,4 +1,5 @@
 import './App.css'
+import search_icon from "../public/assets/search.png"
 
 function App() {
 
@@ -7,6 +8,9 @@ function App() {
       <div className='card'>
         <div className='header'>
           <input type='text' className='search_bar' placeholder='Search' />
+          <div className='search-icon'>
+            <img src={search_icon} alt='' />
+          </div>
         </div>
       </div>
     </div>
