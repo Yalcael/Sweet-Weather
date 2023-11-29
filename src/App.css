@@ -6,32 +6,3 @@
     border-radius: 20px;
     background-color: #116A7B;
 }
-
-.header {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding-top: 20px;
-}
-
-.header input {
-    display: flex;
-    width: 220px;
-    height: 30px;
-    background: white;
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    padding-left: 30px;
-    color: black;
-    font-size: 22px;
-}
-
-.search-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 33px;
-    height: 33px;
-    cursor: pointer;
-}
