@@ -2,6 +2,7 @@ import './App.css'
 
 import SearchBar from './Components/SearchBar'
 import Information from './Components/Information'
+import BottomInformation from './Components/BottomInformation'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <div className='card'>
         <SearchBar />
         <Information />
+        <BottomInformation />
       </div>
     </div>
   )
