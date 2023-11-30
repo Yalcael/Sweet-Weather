@@ -3,9 +3,8 @@
     flex-wrap: wrap;
     flex: 1;
     flex-direction: row;
-    flex: 1;
     align-content: flex-end;
-    padding-bottom: 72px;
+    padding-bottom: 80px;
 }
 
 .elements {
@@ -14,7 +13,7 @@
    align-items: center;
     justify-content: space-around;
     width: 50%;
-    padding-top: 20px;
+    padding-top: 32px;
 }
 
 .data {
