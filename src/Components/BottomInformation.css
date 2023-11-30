@@ -1,0 +1,28 @@
+.bottom-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    flex: 1;
+    align-content: flex-end;
+    padding-bottom: 72px;
+}
+
+.elements {
+    margin: auto;
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.data {
+    font-size: 25px;
+    color: #F3EEEA;
+}
+
+.text {
+    font-size: 20px;
+    color: #F3EEEA;
+}

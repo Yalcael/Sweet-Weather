@@ -4,7 +4,7 @@ import clouds_icon from "/assets/clouds.png"
 const Information = () => {
 
   return (
-    <>
+    <div className='Middle-info'>
       <div className='weather-icon'>
         <img src={clouds_icon} alt='' />
       </div>
@@ -14,7 +14,7 @@ const Information = () => {
       <div className='weather-country'>
         London
       </div>
-    </>
+    </div>
   )
 }
 

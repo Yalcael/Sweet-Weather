@@ -1,27 +1,22 @@
 .container {
-    width: 600px;
-    height: 700px;
+    max-width: 600px;
+    height: 85vh;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 5vh;
+    align-self: center;
     border-radius: 20px;
     background-color: #116A7B;
-}
-
-.elements {
-    margin: auto;
     display: flex;
-   align-items: center;
-    justify-content: space-evenly;
-    gap: 10px;
-    padding: 6px;
+    flex: 1;
+    flex-direction: column;
 }
 
-.data {
-    font-size: 25px;
-    color: #F3EEEA;
-}
-
-.text {
-    font-size: 20px;
-    color: #F3EEEA;
+.card {
+    height: 85vh;
+    margin: auto;
+    margin-top: 5vh;
+    align-self: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
