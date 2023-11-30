@@ -1,11 +1,11 @@
 .weather-icon {
-    margin-top: 90px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
 }
 
 .weather-degree {
-    margin-top: 45px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     color: #F3EEEA;
@@ -17,4 +17,5 @@
     justify-content: center;
     color: #F3EEEA;
     font-size: 50px;
+    margin-bottom: 20px;
 }
