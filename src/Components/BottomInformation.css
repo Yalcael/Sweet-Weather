@@ -4,7 +4,7 @@
     flex: 1;
     flex-direction: row;
     align-content: flex-end;
-    padding-bottom: 80px;
+    padding-bottom: 48px;
 }
 
 .elements {
@@ -13,7 +13,7 @@
    align-items: center;
     justify-content: space-around;
     width: 50%;
-    padding-top: 32px;
+    padding-top: 8px;
 }
 
 .data {
