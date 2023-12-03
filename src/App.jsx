@@ -16,7 +16,7 @@ import { useEffect } from 'react'
 function App() {
   const [city, setCity] = useState('Paris')
   const [information, setInformation] = useState({})
-  const api_key = "54b1d0bbbe16764f1f411d1775e901c2";
+  const api_key = import.meta.env.VITE_WEATHER_API_KEY
 
   useEffect(() => {
     const icon_mapping = {
