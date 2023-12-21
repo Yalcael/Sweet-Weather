@@ -67,5 +67,4 @@ function App() {
   )
 }
 
-sdlfkgblskdfngklsjnfgkj
 export default App
