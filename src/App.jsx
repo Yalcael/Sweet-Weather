@@ -16,8 +16,7 @@ import { useEffect } from 'react'
 function App() {
   const [city, setCity] = useState('Paris')
   const [information, setInformation] = useState({})
-  const api_key = import.meta.env.VITE_WEATHER_API_KEY
-
+  
   useEffect(() => {
     const icon_mapping = {
       "Clouds": clouds_icon,
@@ -30,6 +29,7 @@ function App() {
     }
     const getWeatherData = async () => {
       try {
+        const api_key = import.meta.env.VITE_WEATHER_API_KEY
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=Metric&appid=${api_key}`);
         if (!response.ok) {
           throw new Error(`${response.status} ${response.statusText}`);
@@ -67,4 +67,5 @@ function App() {
   )
 }
 
+sdlfkgblskdfngklsjnfgkj
 export default App
